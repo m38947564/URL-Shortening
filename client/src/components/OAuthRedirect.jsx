@@ -29,7 +29,7 @@ const OAuthRedirect = () => {
       dispatch(setUser({ token, userId }));
 
       // Show success toast
-      toast.success("Login successful!");
+      toast.success("plz refresh the page you logged in successfully!");
 
       // Stop loading and redirect to home page
       setLoading(false);
